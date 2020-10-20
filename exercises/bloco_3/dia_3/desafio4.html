@@ -1,0 +1,61 @@
+<!--
+    Desafio: Descendentes de Khan
+    Relatar um problema
+    Adicione regras descendentes
+    1 - Essa página web descreve o Genghis Khan, um imperador que tinha muitos descendentes, e inclui uma tabela com apenas alguns dos imperadores que descendem dele. Adicione uma regra que atinge somente os elementos que têm a classe 'emperor' (imperador) e que estão na tabela. A regra deve alterar a cor de fundo dessas células da tabela.
+
+    2 - Agora, adicione outra regra que atinja apenas os elementos que têm o nome de classe "reign" na tabela. Como na primeira etapa, a regra deve alterar a cor de fundo dessas células da tabela. Escolha uma cor diferente da que você escolheu para a outra regra!
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Descendants of Khan</title>
+        <style>
+            .emperor {
+                font-family: cursive;
+            }
+            table .emperor{
+                
+                background-color: #ccc;
+            }
+            table .reign{
+                background-color: #ddd;
+            }
+            .reign {
+                font-family: monospace;
+            }
+        </style>
+    </head>
+    <body>
+
+    <h1>Descendants of Khan</h1>
+    
+    <p><strong class="emperor">Genghis Khan</strong> (<span class="reign">1206-1227</span>) was a emperor who had many sons and daughters, and many famous emperors are descended from him. (But not Sal Khan!)</p>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Reign</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="emperor">Ögedei Khan</td>
+                <td class="reign">1229-1241</td>
+            </tr>
+            <tr>
+                <td class="emperor">Kublai Khan</td>
+                <td class="reign">1260-1294</td>
+            </tr>
+            <tr>
+                <td class="emperor">Temür Khan</td>
+                <td class="reign">1294-1307</td>
+            </tr>
+        </tbody>
+    </table>
+
+    </body>
+</html>
