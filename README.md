@@ -6,26 +6,26 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
-## Fundamentos doDesenvolvimento Web :white_check_mark:
+## Fundamentos doDesenvolvimento Web :hourglass_flowing_sand:
 
-##### Bloco 1: Introdução - Unix & Shell :white_check_mark:
+##### Bloco 1: Introdução - Unix & Shell :heavy_check_mark:
 
-- [X] 1-3: _Unix & Bash - Part 1_ :white_check_mark:
-- [X] 1-4: _Unix & Bash - Part 2_ :white_check_mark:
-- [X] 1-5: _Shell Script_ :white_check_mark:
+- [X] 1-3: _Unix & Bash - Part 1_ :heavy_check_mark:
+- [X] 1-4: _Unix & Bash - Part 2_ :heavy_check_mark:
+- [X] 1-5: _Shell Script_ :heavy_check_mark:
 
-##### Bloco 2: Git & GitHub :white_check_mark:
+##### Bloco 2: Git & GitHub :heavy_check_mark:
 
-- [X] 2-1: _O que é e para que serve?_ :white_check_mark:
-- [X] 2-2: _Entendendo os comandos_ :white_check_mark:
-- [X] 2-3: _Internet - Entendendo como ela funciona_ :white_check_mark:
+- [X] 2-1: _O que é e para que serve?_ :heavy_check_mark:
+- [X] 2-2: _Entendendo os comandos_ :heavy_check_mark:
+- [X] 2-3: _Internet - Entendendo como ela funciona_ :heavy_check_mark:
 
 ##### Bloco 3: Introdução - HTML & CSS :hourglass_flowing_sand:
 
-- [X] 3-1: _HTML & CSS - Estruturas de página_ :white_check_mark:
-- [X] 3-2: _HTML & CSS - Primeiros passos em CSS_ :white_check_mark:
-- [X] 3-3: _HTML & CSS - Seletores e posicionamento_ :white_check_mark:
-- [X] 3-4: _HTML Semântico_ :white_check_mark:
+- [X] 3-1: _HTML & CSS - Estruturas de página_ :heavy_check_mark:
+- [X] 3-2: _HTML & CSS - Primeiros passos em CSS_ :heavy_check_mark:
+- [X] 3-3: _HTML & CSS - Seletores e posicionamento_ :heavy_check_mark:
+- [X] 3-4: _HTML Semântico_ :heavy_check_mark:
 - [ ] 3-5: _[Projeto - HTML & CSS]()_
 
 ##### Bloco 4: Introdução - JavaScript :hourglass_flowing_sand:
