@@ -1,0 +1,186 @@
+<!--
+        O objetivo desses exercícios é colocar em prática o que você acabou de aprender sobre HTML semântico.
+    Para tal, criaremos uma página que apresenta um dos animais mais impressionantes que existem: o Stomatopoda. A estilização da página fica a seu critério. 😉
+    1 - Adicione um cabeçalho na página contendo o título Soco a 80km/h: Conheça o Stomatopoda.
+    2 - Adicione um conjunto de links que representam a área de navegação do site.
+    3 - Crie um link chamado Página Inicial.
+    4 - Crie um link chamado Sobre.
+    5 - Crie um link chamado Contato.
+    6 - Crie um artigo que vai conter os fatos interessantes sobre o Stomatopoda. O artigo terá o subtítulo Fatos sobre o Stomatopoda. Segue um site animal de inspiração para pegar fatos.
+    7 - Divida o artigo em seções, organizando-o da seguinte forma:
+    8 - Uma primeira seção contendo informações gerais a respeito do animal. O subtítulo para essa seção fica a seu critério. É necessário que conste nessa seção seu nome científico, que é Odontodactylus scyllarus, em itálico. Além disso, é preciso que haja informação tabular a respeito de sua classifição científica, em específico: Reino, Filo, Subfilo, Classe, Subclasse e Ordem. Tais informações você consegue obter na Wikipedia.
+    9 - As outras seções dizem respeito aos fatos interessantes que você escolheu acerca do animal. Para cada fato escolhido você vai criar uma seção.
+    10 - Adicione para cada seção um subtítulo referente ao fato escolhido.
+    11 - Adicione, para cada seção, parágrafo(s) descrevendo o fato escolhido. Destaque características impressionantes referentes ao fato que você escolheu, de forma a reforçar a unicidade do Stomatopoda. Por exemplo: se você criar uma seção detalhando o soco potente do animal, seria interessante destacar a velocidade desse soco (80km/h) em negrito.
+    12 - Adicione, para cada seção, uma imagem, como forma de ilustrar o fato.
+    13 - Adicione, por fim, uma seção de referências bibliográficas, contendo uma lista de todos os links que foram usados como base para compilar a página em questão.
+    14 - Adicione um conteúdo adjacente ao artigo, disponibilizando um link para este vídeo, que mostra o animal em ação.
+    15 - Adicione um rodapé na página, mostrando algo do gênero "Conteúdo compilado por , ".
+    Obs: para esse exercício, é obrigatório fazer uso de no mínimo elementos com as seguintes tags: header, nav, article, section, h1, h2, h3, aside, footer, table e img.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Soco a 80km/h: Conheça o Stomatopoda.</title>
+    <meta name="viewport" content="width=device-width" />
+    <style>
+        *{
+            margin: 0 auto;
+            text-align: center;
+            align-items: center;
+        }
+        body{
+            padding: 0;
+            margin: 0 auto;
+        }
+        #naveg ul li{
+            margin-top: 10px;
+            background-color: #cecccc;
+            display: inline-block;
+            margin-right: 10px;
+            padding: 10px;
+        }
+        .cientifico{
+            font-style: italic;
+        }
+        #infotab{
+            position: fixed;
+            top: 20px;
+            right: 100px;
+            float: right;
+        }
+        #infotab td{
+            border:  1px dashed;
+            padding: 5px;
+        }
+        section{
+            max-width: 60%;
+            padding: 2%;
+        }
+        section p{
+            text-justify: auto;
+        }
+        section.ref{
+            max-width: 100%;
+        }
+        .img-art{
+            float: left;
+            width: 180px;
+        }
+        h4{
+            margin-bottom: 10px;
+        }
+        .descvideo{
+            font-size: 15px;
+            text-align: right;
+            color: blue;
+        }
+        #video{
+            position: fixed;
+            top: 220px;
+            right: 10px;
+            float: right;
+        }
+        footer{
+            position: fixed;
+            background-color: white;
+            width: 100%;
+            bottom: 0;
+            height: 20px;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+  </head>
+  <body>
+    <!--insira os elementos aqui-->
+    <header> 
+        <h1 class="titulo">Soco a 80km/h: Conheça o Stomatopoda.</h1> 
+    </header>
+    <nav id="naveg">
+        <ul>
+            <li>Página Inicial</li>
+            <li>Sobre</li>
+            <li>Contato</li>
+        </ul>
+    </nav>
+
+    <section>
+        <article>
+            <h2>Fatos sobre o Stomatopoda.</h2>
+            <section>
+                <p>Stomatopoda (ou estomatópode), com nome científico <span class="cientifico">Odontodactylus scyllarus</span>, chamados popularmente de tamarutacas ou de lacraias-do-mar no Brasil,
+                é uma ordem de crustáceos marinhos da subclasse Hoplocarida, que agrupa cerca de 400 espécies, 
+                caracterizadas principalmente pela morfologia da segunda pata torácica, que é modificada em apêndice 
+                subquelado, lembrando uma pata de louva-a-deus.</p>
+            
+                <table id="infotab">
+                    <tr>
+                        <td>Reino:</td>
+                        <td>Animalia</td>
+                    </tr>
+                    <tr>
+                        <td>Filo:</td>
+                        <td>Arthropoda</td>
+                    </tr>
+                    <tr>
+                        <td>Subfilo:</td>
+                        <td>Crustacea</td>
+                    </tr>
+                    <tr>
+                        <td>Classe:</td>
+                        <td>Malacostraca</td>
+                    </tr>
+                    <tr>
+                        <td>Subclasse:</td>
+                        <td>Hoplocarida</td>
+                    </tr>
+                    <tr>
+                        <td>Ordem:</td>
+                        <td>Stomatopoda</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section>
+                <h3>Diferentes nomes</h3>
+                <img alt="imagem da Stomatopoda" class="img-art" src="data:image/jpeg;base64,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" /> 
+                <p>Também conhecidas como esquilas ou lagosta-boxeadora, espalhadas pelas costas dos mares tropicais e 
+                subtropicais. Além das patas, elas apresentam uma silhueta característica, devido ao grande comprimento 
+                aparentemente de seu abdómen. Os ovos ficam ligados por uma massa gelatinosa que a mãe carrega contra o 
+                ventre até que eclodem, limpando-os sem parar.</p>
+            </section>
+            <section>
+                <h3>Força esmagadora</h3>
+                <img class="img-art" alt="imagem da Stomatopoda" src="data:image/jpeg;base64,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">
+                <p>As maiores esmagadoras, tais como exemplares de Odontodactylus scyllarus, são capazes de desferir um 
+                    dos mais rápidos e violentos golpes do reino animal, um soco que pode apresentar a velocidade de um 
+                    tiro calibre .22 <strong>(equivalente a 720km/h)</strong> e uma força de impacto de <strong> 60 kg/cm²</strong>.[3] Essa força esmagadora 
+                    é a responsável pelo seu título de "lagosta-boxeadora" e é capaz de facilmente quebrar a carapaça de um 
+                    caranguejo, as conchas duras e calcificadas de gastrópodes ou até mesmo quebrar o vidro reforçado de um 
+                    aquário.
+                </p>
+            </section>
+            <section>
+                <h3>onde Vivem</h3>
+                <img class="img-art" alt="imagem da Stomatopoda" src="https://1.bp.blogspot.com/_SjVi-OWqHzs/S7Z-KAtsqiI/AAAAAAAAFlA/VnCgzeBnii8/s320/Odontodactylus.jpg" />
+                <p>Estomatópodes podem ser encontrados em quase todo o litoral brasileiro, mas não são animais fáceis de 
+                e observar pelos seus hábitos mais furtivos. Devem ser manuseados com muita cautela pois são animais 
+                preparados para se defender com força, caso sejam incomodados.</p>
+            </section>  
+            <aside id="video">
+                <a href="https://www.youtube.com/watch?v=E0Li1k5hGBE" target="_blank"><img alt="imagem do video Stomatopoda" width="300px" src="https://img.youtube.com/vi/E0Li1k5hGBE/hqdefault.jpg">
+                <p class="descvideo">Veja este vídeo do animal em ação</p></a>
+            </aside>
+            <section class="ref">
+                <p>referências bibliográficas: <a href="https://pt.wikipedia.org/wiki/Stomatopoda">Wikipédia: Stomatopoda</a>, 
+                <a href="http://wonderfulseaworld.blogspot.com/2012/03/invertebrados-marinhos.html">Blog: Maravilhoso Mundo dos animais</a></p>
+            </section>
+          
+        </article>
+    </section>
+    <footer>Conteúdo compilado por , <a href="https://rafasysop.github.io" target="_blank"> Rafael Moura</a></footer>
+  </body>
+</html>
