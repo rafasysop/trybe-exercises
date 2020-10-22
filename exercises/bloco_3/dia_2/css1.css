@@ -1,0 +1,29 @@
+body {
+    background-color: #000;
+}
+h1{
+    font-size: 65px;
+    color: orange;
+}
+#ppp {
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+}
+.cor{
+    background-color: #444;
+    width: 400px;
+}
+ul li{
+    font-size: 16px;
+    font-weight: 700;
+}
+.amarelo {
+    color: yellow;
+}
+.vermelho {
+    color: red;
+}
+.marrom {
+    color: saddlebrown;
+}
