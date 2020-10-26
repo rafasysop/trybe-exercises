@@ -1,3 +1,8 @@
+# Exercicios Bloco 4 dia 2 - Arrays e Loop
+
+
+// Nesse primeiro exercício, percorra o array imprimindo todos os valores nele contidos com a função console.log();
+
 // Para o segundo exercício, você deve somar todos os valores contidos no array e imprimir o resultado;
 
 // Para o terceiro exercício, calcule e imprima a média aritmética dos valores contidos no array;
