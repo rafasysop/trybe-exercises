@@ -9,7 +9,12 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let novoNum = [];
 
 for(i = 0;i<numbers.length;i++){
-    novoNum.push(numbers[i] * numbers[i+1]);
+    if(numbers.length == (numbers.length - 1)){
+        novoNum.push(numbers[i] * 2);
+    } else {
+        novoNum.push(numbers[i] * numbers[i+1]);
+    }
+    
 }
 
 console.log(novoNum);
