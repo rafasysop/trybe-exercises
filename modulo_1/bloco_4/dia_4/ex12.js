@@ -2,12 +2,12 @@
 function stringComp(word,ending) {
     let ver = false;
     if(ending.length < word.length){
-
         for(i =1;i<=ending.length;i++){
-            if(word[word.length-i] === ending[ending.length -i]){
-                ver = true;
-            }else{
+            if(word[word.length-i] !== ending[ending.length -i]){
                 ver = false;
+                break;
+            }else{
+                ver = true;
             }
         }
 
@@ -17,4 +17,4 @@ function stringComp(word,ending) {
       console.log('Ending é maior que Word');
     }
 }
-stringComp("trybe", "be");
+stringComp("Trybe", "be");
