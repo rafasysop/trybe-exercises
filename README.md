@@ -31,7 +31,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 4: Introdução - JavaScript :heavy_check_mark:
 
 - [x] 4-1: _JavaScript - Primeiros passos_ :heavy_check_mark:
-- [x] 4-2: _JavaScript - Array e loop For_
+- [x] 4-2: _JavaScript - Array e loop For_ :heavy_check_mark:
 - [x] 4-3: _JavaScript - Lógica de Programação e Algoritmos_ :heavy_check_mark:
 - [x] 4-4: _JavaScript - Objetos e funções_ :heavy_check_mark:
 - [x] 4-5: _[Projeto - Playground Functions](https://github.com/tryber/sd-08-project-playground-function/tree/rafasysop-project-playground-functions)_ :heavy_check_mark:
