@@ -97,6 +97,7 @@
             listaUl.appendChild(listaLi);
         }
         divRight.appendChild(listaUl);
+        //exercicio 09
         let count = 0;
         while(count<3){
             let h3Text = document.createElement('h3');
@@ -104,7 +105,22 @@
             divMain.appendChild(h3Text);
             count++
         }
-        
+        //ex parte 2
+        h1Corpo.className = 'title';
+        count = 0;
+        while(count<3){
+         document.querySelectorAll('h3')[count].className = 'description';
+         count++
+        }
+        //ex03 part2
+        divMain.removeChild(divLeft)
+        //ex04 parte2
+        divRight.style = 'margin: auto;';
+        //ex05 parte2
+        divCenter.parentNode.style = 'background-color: green;';
+       //ex06 parte2
+       listaUl.removeChild(listaUl.childNodes[8]);
+       listaUl.removeChild(listaUl.childNodes[8]);
        
         
 
