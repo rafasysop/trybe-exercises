@@ -87,6 +87,16 @@
         let paragrafo = document.createElement('p');
         paragrafo.innerText = 'estou gosstando muito do conteúdo desta aula.';
         divCenter.appendChild(paragrafo);
+        // Exercicio 08
+        let listaUl = document.createElement('ul'); 
+       
+        
+        for(i = 1;i<=10;i+=1){
+            let listaLi = document.createElement('li');
+            listaLi.innerText = i;
+            listaUl.appendChild(listaLi);
+        }
+        divRight.appendChild(listaUl);
 
 
     </script>
