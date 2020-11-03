@@ -57,16 +57,19 @@
   </head>
   <body>
     <script>
-      // COLOQUE SEU CÓDIGO AQUI
-       let corpo = document.querySelector('body');
-       let h1Corpo = document.createElement('h1');
-       h1Corpo.innerText = 'Exercício 5.2 - JavaScript DOM';
-       corpo.appendChild(h1Corpo);
-
+        // exercicio 1
+        let corpo = document.querySelector('body');
+        let h1Corpo = document.createElement('h1');
+        h1Corpo.innerText = 'Exercício 5.2 - JavaScript DOM';
+        corpo.appendChild(h1Corpo);
+        // Exercicio 2
         let divMain = document.createElement('div');
         divMain.className = 'main-content';
-
         corpo.appendChild(divMain);
+        // Ex03
+        let divCenter = document.createElement('div');
+        divCenter.className = 'center-content';
+        divMain.appendChild(divCenter);
 
 
     </script>
