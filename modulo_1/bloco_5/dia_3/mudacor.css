@@ -1,0 +1,29 @@
+.flexy {
+    display: flex;
+    font-size: 20px;
+  }
+  
+  #input-texto {
+    width: 80%;
+    line-height: 24px;
+  }
+  .fonte {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .como-usar {
+    border: 1px solid black;
+    width: 75%;
+  }
+  .caixa1,
+  .caixa2 {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
