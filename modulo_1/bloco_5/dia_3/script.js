@@ -128,15 +128,54 @@ function ligaSexta(sextaP){
         //modifica o target que chamou a funçao
         evt.target.style.fontSize = '20px'; 
     }
+let colors = [];
+let keyColor = 0;
+function addSpanCor(text){
+        
+        let divCor = document.createElement('div'); 
+        let span = document.createElement('span');  
+        span.innerHTML = text;
+        
+        let mytask = document.querySelector('.my-tasks');
+        mytask.appendChild(span);
+        
+        divCor.className = 'task';
+       
+        mytask.appendChild(divCor);
+        mytask.appendChild(document.createElement('br'));
+        
+        let selecionado = false;
+        divCor.addEventListener('click', function (){
+            
+            let verificaSelected = document.querySelectorAll('.selected');
+            if(selecionado == true){
+                        divCor.className = 'task';
+                        divCor.style.backgroundColor = 'white';
+                        selecionado = false;
+                      
+                        
+                    } else {
+                        if(verificaSelected.length >= 1){
+                              return alert('Só pode ter um Campo Selecionado!');
+                        }
+                          divCor.className = 'task selected';
+                        
+                        if(!divCor.id){
+                            colors.push(
+                                {
+                                    'key': keyColor, 'color': getRandomColor(),
+                                }
+                            );
+                            keyColor++
+                            divCor.id = keyColor-1; 
+                        }
+                        divCor.style.backgroundColor = colors[divCor.id].color; 
+                       selecionado = true;
+                    } 
+                    
+            })
+}      
 
-    let span = document.createElement('span')
-    span.innerHTML = 'Cozinhar'
-    let mytask = document.querySelector('.my-tasks')
-    mytask.appendChild(span);
-    let divCor = document.createElement('div');
-    divCor.className = 'task';
-    mytask.appendChild(divCor);
-    selecionado = false;
     function getRandomColor() {
         var letters = '0123456789ABCDEF';
         var color = '#';
@@ -145,19 +184,11 @@ function ligaSexta(sextaP){
         }
         return color;
       }
-      let corCozinhar = getRandomColor();
-    divCor.addEventListener('click', function(cor){
-        
-        if(selecionado == false){
-            divCor.className = 'task selected';
-            divCor.style.backgroundColor = corCozinhar
-            selecionado = true;
-        } else {
-            divCor.className = 'task';
-            divCor.style.backgroundColor = 'white';
-            selecionado = false;
-        }      
-    })
+      function atribuiCor(id){
+
+      }
+      
+
 
     
     for(let corDiaTarefa of diasZoom){
@@ -166,4 +197,16 @@ function ligaSexta(sextaP){
 
     function coloreDia(evt){
         evt.target.style.backgroundColor = document.querySelector('.selected').style.backgroundColor;
+    }
+    
+    let btnAdd = document.querySelector('#btn-add');
+    btnAdd.addEventListener('click', adicionarTarefa);
+    function adicionarTarefa(){
+        let textComp = document.querySelector('#task-input').value;
+        if(textComp == null || textComp == ''){
+            alert('Favor Preencher com algum compromisso.');
+        }
+        
+        console.log(textComp);
+        addSpanCor(textComp)
     }
