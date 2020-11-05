@@ -3,11 +3,11 @@ function createDaysOfTheWeek() {
     const weekDaysList = document.querySelector('.week-days');
   
     for (let index = 0; index < weekDays.length; index += 1) {
-      const days = weekDays[index];
-      const dayListItem = document.createElement('li');
-      dayListItem.innerHTML = days;
-  
-      weekDaysList.appendChild(dayListItem);
+        const days = weekDays[index];
+        const dayListItem = document.createElement('li');
+        dayListItem.innerHTML = days;
+
+        weekDaysList.appendChild(dayListItem);
     };
   };
   
@@ -35,7 +35,6 @@ function createDaysOfTheWeek() {
         let liDays = document.createElement('li');
         liDays.innerHTML = daysNum;
         criaClasse(daysNum, liDays);
-        
         ulDays.appendChild(liDays);
     };
   };
@@ -93,9 +92,8 @@ function ligaSexta(sextaP){
         sexta[i].innerHTML = 'Sextou!'
     }
     onOfFriday = true;
-  }
-  function desligaSexta(sextaP){
-      
+}
+function desligaSexta(sextaP){
     for(i=0;i<sextaP.length;i+=1){
         sexta[i].innerHTML = numSexta[i]
     }
@@ -113,100 +111,97 @@ function ligaSexta(sextaP){
       }         
 }
     //pega os dias com classe day
-    const diasZoom = document.querySelectorAll('.day');
-    for(let i of diasZoom){
-        i.addEventListener('mouseover', mouseUp);
-        i.addEventListener('mouseleave', mouseDown)
-    } 
+const diasZoom = document.querySelectorAll('.day');
+for(let i of diasZoom){
+    i.addEventListener('mouseover', mouseUp);
+    i.addEventListener('mouseleave', mouseDown)
+} 
 
 
-    function mouseUp(evt){
-        //modifica o target que chamou a funçao
-        evt.target.style.fontSize = '30px';   
-    }
-    function mouseDown(evt){
-        //modifica o target que chamou a funçao
-        evt.target.style.fontSize = '20px'; 
-    }
+function mouseUp(evt){
+    //modifica o target que chamou a funçao
+    evt.target.style.fontSize = '30px';   
+}
+function mouseDown(evt){
+    //modifica o target que chamou a funçao
+    evt.target.style.fontSize = '20px'; 
+}
 let colors = [];
 let keyColor = 0;
 function addSpanCor(text){
         
-        let divCor = document.createElement('div'); 
-        let span = document.createElement('span');  
-        span.innerHTML = text;
+    let divCor = document.createElement('div'); 
+    let span = document.createElement('span');  
+    span.innerHTML = text;
+    
+    let mytask = document.querySelector('.my-tasks');
+    mytask.appendChild(span);
+    
+    divCor.className = 'task';
+    
+    mytask.appendChild(divCor);
+    mytask.appendChild(document.createElement('br'));
+    
+    let selecionado = false;
+    divCor.addEventListener('click', function (){
         
-        let mytask = document.querySelector('.my-tasks');
-        mytask.appendChild(span);
-        
-        divCor.className = 'task';
-       
-        mytask.appendChild(divCor);
-        mytask.appendChild(document.createElement('br'));
-        
-        let selecionado = false;
-        divCor.addEventListener('click', function (){
+        let verificaSelected = document.querySelectorAll('.selected');
+        if(selecionado == true){
+            divCor.className = 'task';
+            divCor.style.backgroundColor = 'white';
+            selecionado = false;
             
-            let verificaSelected = document.querySelectorAll('.selected');
-            if(selecionado == true){
-                        divCor.className = 'task';
-                        divCor.style.backgroundColor = 'white';
-                        selecionado = false;
-                      
-                        
-                    } else {
-                        if(verificaSelected.length >= 1){
-                              return alert('Só pode ter um Campo Selecionado!');
-                        }
-                          divCor.className = 'task selected';
-                        
-                        if(!divCor.id){
-                            colors.push(
-                                {
-                                    'key': keyColor, 'color': getRandomColor(),
-                                }
-                            );
-                            keyColor++
-                            divCor.id = keyColor-1; 
-                        }
-                        divCor.style.backgroundColor = colors[divCor.id].color; 
-                       selecionado = true;
-                    } 
-                    
-            })
+            
+        } else {
+            if(verificaSelected.length >= 1){
+                return alert('Só pode ter um Campo Selecionado!');
+            }
+                divCor.className = 'task selected';
+            
+            if(!divCor.id){
+                colors.push(
+                    {
+                        'key': keyColor, 'color': getRandomColor(),
+                    }
+                );
+                keyColor++
+                divCor.id = keyColor-1; 
+            }
+            divCor.style.backgroundColor = colors[divCor.id].color; 
+            selecionado = true;
+        } 
+                
+        })
 }      
 
-    function getRandomColor() {
-        var letters = '0123456789ABCDEF';
-        var color = '#';
-        for (var i = 0; i < 6; i++) {
-          color += letters[Math.floor(Math.random() * 16)];
-        }
-        return color;
-      }
-      function atribuiCor(id){
+function getRandomColor() {
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}
 
-      }
       
 
 
-    
-    for(let corDiaTarefa of diasZoom){
+for(let corDiaTarefa of diasZoom){
         corDiaTarefa.addEventListener('click', coloreDia);
     } 
 
-    function coloreDia(evt){
-        evt.target.style.backgroundColor = document.querySelector('.selected').style.backgroundColor;
+function coloreDia(evt){
+    evt.target.style.backgroundColor = document.querySelector('.selected').style.backgroundColor;
+}
+    
+let btnAdd = document.querySelector('#btn-add');
+btnAdd.addEventListener('click', adicionarTarefa);
+function adicionarTarefa(){
+    let textComp = document.querySelector('#task-input').value;
+    if(textComp == null || textComp == ''){
+        alert('Favor Preencher com algum compromisso.');
     }
     
-    let btnAdd = document.querySelector('#btn-add');
-    btnAdd.addEventListener('click', adicionarTarefa);
-    function adicionarTarefa(){
-        let textComp = document.querySelector('#task-input').value;
-        if(textComp == null || textComp == ''){
-            alert('Favor Preencher com algum compromisso.');
-        }
-        
-        console.log(textComp);
-        addSpanCor(textComp)
-    }
+    console.log(textComp);
+    addSpanCor(textComp)
+}
