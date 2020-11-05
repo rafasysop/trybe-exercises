@@ -178,7 +178,9 @@ function addSpanCor(text){
                 );
                 keyColor++
                 divCor.id = keyColor-1; 
+                
             }
+            divCor.previousSibling.style.color = colors[divCor.id].color
             divCor.style.backgroundColor = colors[divCor.id].color; 
             selecionado = true;
         } 
@@ -217,7 +219,6 @@ function adicionarTarefa(){
         alert('Favor Preencher com algum compromisso.');
     }
     
-    console.log(textComp);
     addSpanCor(textComp);
     textComp = document.querySelector('#task-input').value = '';
 }
