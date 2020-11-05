@@ -205,7 +205,7 @@ for(let corDiaTarefa of diasZoom){
     } 
 
 function coloreDia(evt){
-    evt.target.style.backgroundColor = document.querySelector('.selected').style.backgroundColor;
+    evt.target.style.color = document.querySelector('.selected').style.backgroundColor;
 }
     
 let btnAdd = document.querySelector('#btn-add');
