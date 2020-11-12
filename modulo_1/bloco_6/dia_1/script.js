@@ -35,13 +35,36 @@ estados.forEach((e) => {
     }
     criaOption.id = e.key;
     criaOption.setAttribute('name', e.key);
-    criaOption.setAttribute('required', true);
     criaOption.innerText = e.value;
     estadoSelect.appendChild(criaOption);
 });
 
-const datainicio = document.querySelector('#dataini');
-let numeros = [];
-datainicio.addEventListener("keypress",(e) => {
-   console.log(e.key);
+const enviar = document.querySelector('#enviar');
+enviar.addEventListener('click', (e) => {
+    document.querySelector('#resultado').style.display = 'block';
+    document.querySelector('#rnome').innerHTML = document.querySelector('#nome1').value;
+    document.querySelector('#remail').innerHTML = document.querySelector('#email').value;
+    document.querySelector('#rcpf').innerHTML = document.querySelector('#cpf').value;
+    document.querySelector('#rend').innerHTML = document.querySelector('#end').value;
+    document.querySelector('#rcidade').innerHTML = document.querySelector('#cidade').value;
+    document.querySelector('#restado').innerHTML = document.querySelector('#estado').value;
+    // document.querySelector('#rtipo').innerHTML = document.querySelector('#tipo').value;
+    document.querySelector('#rresumo').innerHTML = document.querySelector('#resumo').value;
+    document.querySelector('#rcargo').innerHTML = document.querySelector('#cargo').value;
+    document.querySelector('#rdescargo').innerHTML = document.querySelector('#desCargo').value;
+    document.querySelector('#rdataini').innerHTML = document.querySelector('#dataini').value;
+});
+const limpar = document.querySelector('#limpar');
+limpar.addEventListener('click', (e) => {
+    document.querySelector('#resultado').style.display = 'none';
+    document.querySelector('#nome1').value = '';
+    document.querySelector('#email').value = '';
+    document.querySelector('#cpf').value = '';
+    document.querySelector('#end').value = '';
+    document.querySelector('#cidade').value = '';
+    document.querySelector('#estado').value = '';
+    document.querySelector('#resumo').value = '';
+    document.querySelector('#cargo').value = '';
+    document.querySelector('#desCargo').value = '';
+    document.querySelector('#dataini').value = '';
 });

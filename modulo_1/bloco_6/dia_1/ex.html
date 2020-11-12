@@ -11,7 +11,7 @@
         <h1>Exercicios bloco 6 dia 01 - Forms</h1>
         <h2>formulário de currículo</h2>
     </header>
-    <form action="#" class="meuform" method="GET">
+    <form  class="meuform">
         <fieldset>
             <legend>Dados Pessoais</legend>
             <table>
@@ -37,18 +37,17 @@
                 </tr>
                 <tr>
                     <td class="label"><label for="end">Estado:</label></td>
-                    <td><select name="estado" id="estado" required></option></select></td>
+                    <td><select name="estado" id="estado" required></select></td>
                 </tr>
                 <tr>
                     <td class="label">Moradia:</td>
                     <td>
-                        <label for="casa">Casa<input required type="radio" name="tipo" id="casa" value="casa"></label>
+                        <label for="casa">Casa<input required type="radio" name="tipo" value="casa"></label>
                         <br>
-                        <label for="ap">Apartamento<input required type="radio" value="ap" name="tipo" id="ap" ></label>
+                        <label for="ap">Apartamento<input required type="radio" value="ap" name="tipo"></label>
                     </td>
                 </tr>
-            </table>
-            
+            </table>        
         </fieldset> 
         <fieldset>
             <legend>Experiencias Profissionais</legend>
@@ -69,13 +68,59 @@
                     <td class="label"><label for="dataini">Data de Inicio:</label></td>
                     <td><input type="date" placeholder="ex: 02/11/2017" maxlength="500" name="dataini" id="dataini" required></td>
                 </tr>
-                
-
             </table>
         </fieldset> 
-       <div class="centerButton"> <input type="submit" class="enviar" value="Enviar" /> <input type="reset" value="Limpar" /></div>
+        
     </form>
-   
+   <div class="centerButton"> <button id="enviar" class="enviar">Enviar Curriculo</button><input type="reset" id="limpar" value="Limpar" /></div>
+    <div id="resultado" class="resultado">
+        <table>
+            <tr>
+                <td class="label">Nome Completo:</td>
+                <td id="rnome"></td>
+            </tr>
+            <tr>
+                <td class="label">E-mail:</td>
+                <td id="remail"></td>
+            </tr>
+            <tr>
+                <td class="label">CPF:</td>
+                <td id="rcpf"></td>
+            </tr>
+            <tr>
+                <td class="label">Endereço:</td>
+                <td id="rend"> </td>
+            </tr>
+            <tr>
+                <td class="label">Cidade:</td>
+                <td id="rcidade"> </td>
+            </tr>
+            <tr>
+                <td class="label">Estado:</td>
+                <td id="restado"></td>
+            </tr>
+            <tr>
+                <td class="label">Moradia:</td>
+                <td id="rtipo"></td>
+            </tr>
+            <tr>
+                <td class="label">Resumo da Atividade:</td>
+                <td id="rresumo"></td>
+            </tr>
+            <tr>
+                <td class="label">Cargo:</td>
+                <td id="rcargo"></td>
+            </tr>
+            <tr>
+                <td class="label">Descrição do Cargo:</td>
+                <td id="rdescargo"></td>
+            </tr>
+            <tr>
+                <td class="label">Data de Inicio:</td>
+                <td id="rdataini"></td>
+            </tr>
+        </table>
+    </div>
     <script src="./script.js"></script>
 </body>
 </html>

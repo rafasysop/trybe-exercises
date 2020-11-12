@@ -96,18 +96,28 @@ input[type=email]:hover, textarea:hover {
 }
 
 .centerButton {
-    width: 120px;
+    width: 180px;
     margin: 20px auto;
 }
 
-input[type=submit] { 
+.enviar { 
     display: inline-block;
     background:#006699;
     color:#ffffff;
+    margin-right: 10px;
 }
 
 input[type=reset] { 
     display: inline-block;
     background:#006699;
     color:#ffffff;
+}
+
+.resultado {
+    display: none;
+    width: 45%;
+    margin: 10px auto;
+    border: dashed 1px blue;
+    background-color: #2e2e2e;
+    color: white;
 }
