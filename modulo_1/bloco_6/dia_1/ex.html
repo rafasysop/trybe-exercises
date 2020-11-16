@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios bloco 6 dia 01 - Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Exercicios bloco 6 dia 01 - Forms</h1>
+        <h2>formulário de currículo</h2>
+    </header>
+    <form  class="meuform">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <table>
+                <tr>
+                    <td class="label"><label for="nome1">Nome Completo:</label></td>
+                    <td><input type="text" maxlength="40" placeholder="Escreva seu nome" name="nome" id="nome1" required /> </td>
+                </tr>
+                <tr>
+                    <td class="label"><label for="email">E-mail:</label></td>
+                    <td><input type="email" maxlength="50" placeholder="Escreva seu Email" name="email" id="email" required /> </td>
+                </tr>
+                <tr>
+                    <td class="label"><label for="cpf">CPF:</label></td>
+                    <td><input type="text" maxlength="11" placeholder="Seu CPF - Somente Numeros" name="cpf" id="cpf" required /> </td>
+                </tr>
+                <tr>
+                    <td class="label"><label for="end">Endereço:</label></td>
+                    <td><input type="text" maxlength="200" placeholder="Escreva seu Endereço" name="end" id="end" required /> </td>
+                </tr>
+                <tr>
+                    <td class="label"><label for="cidade">Cidade:</label></td>
+                    <td><input type="text" maxlength="28" placeholder="Escreva sua Cidade" name="cidade" id="cidade" required /> </td>
+                </tr>
+                <tr>
+                    <td class="label"><label for="end">Estado:</label></td>
+                    <td><select name="estado" id="estado" required></select></td>
+                </tr>
+                <tr>
+                    <td class="label">Moradia:</td>
+                    <td>
+                        <label for="casa">Casa<input required type="radio" name="tipo" value="casa"></label>
+                        <br>
+                        <label for="ap">Apartamento<input required type="radio" value="ap" name="tipo"></label>
+                    </td>
+                </tr>
+            </table>        
+        </fieldset> 
+        <fieldset>
+            <legend>Experiencias Profissionais</legend>
+            <table>
+                <tr>
+                    <td class="label"><label for="resumo">Resumo da Atividade:</label></td>
+                    <td><textarea required name="resumo" id="resumo" maxlength="1000" placeholder="Digite aqui um Resumo" cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td class="label"><label for="cargo">Cargo:</label></td>
+                    <td><input type="text" maxlength="40" name="cargo" id="cargo" required></td>
+                </tr>
+                <tr>
+                    <td class="label"><label for="desCargo">Descrição do Cargo:</label></td>
+                    <td><input type="text" maxlength="500" name="desCargo" id="desCargo" required></td>
+                </tr>
+                <tr>
+                    <td class="label"><label for="dataini">Data de Inicio:</label></td>
+                    <td><input type="date" placeholder="ex: 02/11/2017" maxlength="500" name="dataini" id="dataini" required></td>
+                </tr>
+            </table>
+        </fieldset> 
+        
+    </form>
+   <div class="centerButton"> <button id="enviar" class="enviar">Enviar Curriculo</button><input type="reset" id="limpar" value="Limpar" /></div>
+    <div id="resultado" class="resultado">
+        <table>
+            <tr>
+                <td class="label">Nome Completo:</td>
+                <td id="rnome"></td>
+            </tr>
+            <tr>
+                <td class="label">E-mail:</td>
+                <td id="remail"></td>
+            </tr>
+            <tr>
+                <td class="label">CPF:</td>
+                <td id="rcpf"></td>
+            </tr>
+            <tr>
+                <td class="label">Endereço:</td>
+                <td id="rend"> </td>
+            </tr>
+            <tr>
+                <td class="label">Cidade:</td>
+                <td id="rcidade"> </td>
+            </tr>
+            <tr>
+                <td class="label">Estado:</td>
+                <td id="restado"></td>
+            </tr>
+            <tr>
+                <td class="label">Moradia:</td>
+                <td id="rtipo"></td>
+            </tr>
+            <tr>
+                <td class="label">Resumo da Atividade:</td>
+                <td id="rresumo"></td>
+            </tr>
+            <tr>
+                <td class="label">Cargo:</td>
+                <td id="rcargo"></td>
+            </tr>
+            <tr>
+                <td class="label">Descrição do Cargo:</td>
+                <td id="rdescargo"></td>
+            </tr>
+            <tr>
+                <td class="label">Data de Inicio:</td>
+                <td id="rdataini"></td>
+            </tr>
+        </table>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
