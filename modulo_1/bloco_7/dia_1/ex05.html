@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio 05</title>
+</head>
+<body>
+    <span>Contador: </span><span id="contador">0</span>
+    <br>
+    <button id="btn-count">Somar +1</button>
+    <script>
+        const contador = document.querySelector('#contador');
+        const btnContador = document.querySelector('#btn-count');
+        let valorContador = parseInt(contador.innerHTML);
+        btnContador.addEventListener('click', () => {
+            valorContador += 1
+            contador.innerHTML = valorContador;
+        })
+    </script>
+</body>
+</html>
