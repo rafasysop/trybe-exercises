@@ -69,8 +69,11 @@ function authorUnique() {
   // escreva seu código aqui
    let result;
   books.forEach(element => {
+    
       for (let i = 0; i < books.length; i++) {
-        result = element.author.birthYear === books[i].author.birthYear ? false : true;
+        if (result == false) return false;
+        if (element.id !== books[i].id)
+          result = element.author.birthYear === books[i].author.birthYear ? false : true;
       }
   });
   return result
