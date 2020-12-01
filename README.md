@@ -29,7 +29,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 3-5: _[Projeto - HTML & CSS](https://github.com/tryber/sd-08-project-lessons-learned/tree/rafasysop-project-lessons-learned)_ :heavy_check_mark:
 
 ##### Resultado do Projeto do Bloco 03
-![](./resultado/03 Lessons Learned.png)
+![](/resultado/03 Lessons Learned.png)
 
 ### Bloco 4: Introdução - JavaScript :heavy_check_mark:
 
@@ -40,7 +40,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 4-5: _[Projeto - Playground Functions](https://github.com/tryber/sd-08-project-playground-function/tree/rafasysop-project-playground-functions)_ :heavy_check_mark:
 
 ##### Resultado do Projeto do Bloco 04
-![](./resultado/04 Playground Functions.png)
+![](/resultado/04 Playground Functions.png)
 
 
 ### Bloco 5: Introdução - JavaScript - Projetos :heavy_check_mark:
@@ -56,8 +56,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 *- [ ] 5-7: [Projeto - Carta Misteriosa _Bonus Opcional_](https://github.com/rafasysop/trybe-exercises)*
 
 ##### Resultado dos Projetos do Bloco 05
-![](./resultado/05 Pixel Art.png)
-![](./resultado/05 Todo-List.png)
+![](/resultado/05 Pixel Art.png)
+![](/resultado/05 Todo-List.png)
 
 ### Bloco 6: HTML & CSS avançado :heavy_check_mark:
 
@@ -69,7 +69,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 6-6: _[Projeto - Página inicial do Facebook](https://github.com/tryber/sd-08-project-facebook-signup/tree/rafasysop-facebook-signup)_ :heavy_check_mark:
 
 ##### Resultado do Projeto do Bloco 06
-![](./resultado/06 Facebook Signup.png)
+![](/resultado/06 Facebook Signup.png)
 
 ### Bloco 7: JavaScript ES6 & Testes Unitários :heavy_check_mark:
 
@@ -79,7 +79,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/tryber/sd-08-project-js-unit-tests/tree/rafasysop-js-unit-tests)_ :heavy_check_mark:
 
 ##### Resultado do Projeto do Bloco 06
-![](./resultado/07 Testes Unitarios.png)
+![](/resultado/07 Testes Unitarios.png)
 
 ### Bloco 8: JavaScript ES6 :hourglass_flowing_sand:
 
