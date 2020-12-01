@@ -57,26 +57,26 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 5-7: _[Projeto - Adivinhe a Cor](https://github.com/rafasysop/trybe-exercises)_
 - [ ] 5-7: _[Projeto - Carta Misteriosa](https://github.com/rafasysop/trybe-exercises)_
 
-#### Bloco 6: HTML & CSS avançado :hourglass_flowing_sand:
+#### Bloco 6: HTML & CSS avançado :heavy_check_mark:
 
 - [x] 6-1: _HTML & CSS - Forms_ :heavy_check_mark:
-- [ ] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
-- [ ] 6-3: _CSS Flexbox - Part 1_
-- [ ] 6-4: _CSS Flexbox - Part 2_
-- [ ] 6-5: _CSS Responsivo - Mobile First_
-- [ ] 6-6: _[Projeto - Página inicial do Facebook](https://github.com/rafasysop/trybe-exercises)_
+- [x] 6-2: _Bibliotecas JavaScript e Frameworks CSS_ :heavy_check_mark:
+- [x] 6-3: _CSS Flexbox - Part 1_ :heavy_check_mark:
+- [x] 6-4: _CSS Flexbox - Part 2_ :heavy_check_mark:
+- [x] 6-5: _CSS Responsivo - Mobile First_ :heavy_check_mark:
+- [x] 6-6: _[Projeto - Página inicial do Facebook](https://github.com/tryber/sd-08-project-facebook-signup/tree/rafasysop-facebook-signup)_ :heavy_check_mark:
 
-#### Bloco 7: JavaScript ES6 & Testes Unitários :hourglass_flowing_sand:
+#### Bloco 7: JavaScript ES6 & Testes Unitários :heavy_check_mark:
 
-- [ ] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
-- [ ] 7-2: _JavaScript ES6 - Objects_
-- [ ] 7-3: _Testes unitários em JavaScript_
-- [ ] 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/rafasysop/trybe-exercises)_
+- [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_ :heavy_check_mark:
+- [x] 7-2: _JavaScript ES6 - Objects_ :heavy_check_mark:
+- [x] 7-3: _Testes unitários em JavaScript_ :heavy_check_mark:
+- [x] 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/tryber/sd-08-project-js-unit-tests/tree/rafasysop-js-unit-tests)_ :heavy_check_mark:
 
 #### Bloco 8: JavaScript ES6 :hourglass_flowing_sand:
 
-- [ ] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
-- [ ] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
+- [x] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_ :heavy_check_mark:
+- [x] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_ :heavy_check_mark:
 - [ ] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
 - [ ] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
 - [ ] 8-5: _[Projeto - Zoo functions](https://github.com/rafasysop/trybe-exercises)_
