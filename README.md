@@ -49,11 +49,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 5-2: _JavaScript - Trabalhando com elementos_ :heavy_check_mark:
 - [x] 5-3: _JavaScript - Eventos_ :heavy_check_mark:
 - [x] 5-4: _JavaScript - Web Storage_ :heavy_check_mark:
-*- [ ] 5-5: [Projeto - Meme Generator _Bonus Opcional_](https://github.com/rafasysop/trybe-exercises)*
+- [ ] 5-5: *[Projeto - Meme Generator _Bonus Opcional_]*
 - [x] 5-6: _[Projeto - Arte com Pixels](https://github.com/tryber/sd-08-project-pixels-art/tree/rafasysop-meme-generator-project)_ :heavy_check_mark:
 - [x] 5-7: _[Projeto - Lista de tarefas](https://github.com/tryber/sd-08-project-todo-list/tree/rafasysop-project-todo-list)_ :heavy_check_mark:
-*- [ ] 5-7: [Projeto - Adivinhe a Cor - _Bonus Opcional_](https://github.com/rafasysop/trybe-exercises)*
-*- [ ] 5-7: [Projeto - Carta Misteriosa _Bonus Opcional_](https://github.com/rafasysop/trybe-exercises)*
+- [ ] 5-7: *[Projeto - Adivinhe a Cor - _Bonus Opcional_]*
+- [ ] 5-7: *[Projeto - Carta Misteriosa _Bonus Opcional_]*
 
 ##### Resultado dos Projetos do Bloco 05
 ![](/resultado/05PixelArt.png)
