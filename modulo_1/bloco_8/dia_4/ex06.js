@@ -7,11 +7,11 @@ const shelbyCobra = ["Shelby Cobra", "Ford", 1963]
 const chiron = ["Chiron", "Bugatti", 2016]
 
 // escreva toObject abaixo
-const toObject = ([um, dois, tres]) => {
+const toObject = ([name, brand, year]) => {
     return {
-        name: um,
-        brand: dois,
-        year: tres
+        name,
+        brand,
+        year
     }
 }
 
