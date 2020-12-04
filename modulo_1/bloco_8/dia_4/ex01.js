@@ -10,6 +10,5 @@ const rectangle3 = [6, 9]
 const rectangles = [...rectangle1, ...rectangle2, ...rectangle3]
 
 for(rectangle of rectangles) {
-    // console.log(...rectangles);
-    assert.strictEqual(rectangleArea(parseInt(...rectangles)), rectangle[0]*rectangle[1]) // altere a chamada da funcao rectangleArea
+    assert.strictEqual(rectangleArea(...rectangle), rectangle[0]*rectangle[1]) // altere a chamada da funcao rectangleArea
 }
