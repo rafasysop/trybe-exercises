@@ -10,22 +10,22 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ### Bloco 1: Introdução - Unix & Shell :heavy_check_mark:
 
-- [X] 1-3: _Unix & Bash - Part 1_ :heavy_check_mark:
+- [X] 1-3: _Unix & Bash - Part 1_ :heavy_check_mark: 
 - [X] 1-4: _Unix & Bash - Part 2_ :heavy_check_mark:
 - [X] 1-5: _Shell Script_ :heavy_check_mark:
 
 ### Bloco 2: Git & GitHub :heavy_check_mark:
 
-- [X] 2-1: _O que é e para que serve?_ :heavy_check_mark:
+- [X] 2-1: _O que é e para que serve?_ :heavy_check_mark:  
 - [X] 2-2: _Entendendo os comandos_ :heavy_check_mark:
 - [X] 2-3: _Internet - Entendendo como ela funciona_ :heavy_check_mark:
 
 ### Bloco 3: Introdução - HTML & CSS :heavy_check_mark:
 
-- [X] 3-1: _HTML & CSS - Estruturas de página_ :heavy_check_mark:
-- [X] 3-2: _HTML & CSS - Primeiros passos em CSS_ :heavy_check_mark:
-- [X] 3-3: _HTML & CSS - Seletores e posicionamento_ :heavy_check_mark:
-- [X] 3-4: _HTML Semântico_ :heavy_check_mark:
+- [X] 3-1: _HTML & CSS - Estruturas de página_ :heavy_check_mark: >[Clique Aqui para ver os exercicios](https://github.com/rafasysop/trybe-exercises/tree/main/modulo_1/bloco_3/dia_1)
+- [X] 3-2: _HTML & CSS - Primeiros passos em CSS_ :heavy_check_mark: >[Clique Aqui para ver os exercicios](https://github.com/rafasysop/trybe-exercises/tree/main/modulo_1/bloco_3/dia_2)
+- [X] 3-3: _HTML & CSS - Seletores e posicionamento_ :heavy_check_mark: >[Clique Aqui para ver os exercicios](https://github.com/rafasysop/trybe-exercises/tree/main/modulo_1/bloco_3/dia_3)
+- [X] 3-4: _HTML Semântico_ :heavy_check_mark: >[Clique Aqui para ver os exercicios](https://github.com/rafasysop/trybe-exercises/tree/main/modulo_1/bloco_3/dia_4)
 - [x] 3-5: _[Projeto - HTML & CSS](https://github.com/tryber/sd-08-project-lessons-learned/tree/rafasysop-project-lessons-learned)_ :heavy_check_mark:
 
 ##### Resultado do Projeto do Bloco 03
