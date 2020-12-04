@@ -22,7 +22,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ### Bloco 3: Introdução - HTML & CSS :heavy_check_mark:
 
-- [X] 3-1: _HTML & CSS - Estruturas de página_ :heavy_check_mark: [>Clique Aqui para ver os exercicios](https://github.com/rafasysop/trybe-exercises/tree/main/modulo_1/bloco_3/dia_1)
+- [X] 3-1: _HTML & CSS - Estruturas de página_ :heavy_check_mark: >Para ver os exercicios [Clique Aqui ](https://github.com/rafasysop/trybe-exercises/tree/main/modulo_1/bloco_3/dia_1)
 - [X] 3-2: _HTML & CSS - Primeiros passos em CSS_ :heavy_check_mark: >[Clique Aqui para ver os exercicios](https://github.com/rafasysop/trybe-exercises/tree/main/modulo_1/bloco_3/dia_2)
 - [X] 3-3: _HTML & CSS - Seletores e posicionamento_ :heavy_check_mark: >[Clique Aqui para ver os exercicios](https://github.com/rafasysop/trybe-exercises/tree/main/modulo_1/bloco_3/dia_3)
 - [X] 3-4: _HTML Semântico_ :heavy_check_mark: >[Clique Aqui para ver os exercicios](https://github.com/rafasysop/trybe-exercises/tree/main/modulo_1/bloco_3/dia_4)
