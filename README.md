@@ -38,9 +38,13 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ### Bloco 4: Introdução - JavaScript :heavy_check_mark:
 
 - [x] 4-1: _JavaScript - Primeiros passos_ :heavy_check_mark:
+>Para ver os exercicios do Bloco 04 dia 01 [Clique Aqui ](https://github.com/rafasysop/trybe-exercises/tree/main/modulo_1/bloco_4/dia_1)
 - [x] 4-2: _JavaScript - Array e loop For_ :heavy_check_mark:
+>Para ver os exercicios do Bloco 04 dia 02 [Clique Aqui ](https://github.com/rafasysop/trybe-exercises/tree/main/modulo_1/bloco_4/dia_2)
 - [x] 4-3: _JavaScript - Lógica de Programação e Algoritmos_ :heavy_check_mark:
+>Para ver os exercicios do Bloco 04 dia 03 [Clique Aqui ](https://github.com/rafasysop/trybe-exercises/tree/main/modulo_1/bloco_4/dia_3)
 - [x] 4-4: _JavaScript - Objetos e funções_ :heavy_check_mark:
+>Para ver os exercicios do Bloco 04 dia 04 [Clique Aqui ](https://github.com/rafasysop/trybe-exercises/tree/main/modulo_1/bloco_4/dia_4)
 - [x] 4-5: _[Projeto - Playground Functions](https://github.com/tryber/sd-08-project-playground-function/tree/rafasysop-project-playground-functions)_ :heavy_check_mark:
 
 ##### Resultado do Projeto do Bloco 04
