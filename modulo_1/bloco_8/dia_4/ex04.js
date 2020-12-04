@@ -1,3 +1,6 @@
+// Escreva uma função filterPeople que, dada uma lista de pessoas, retorna todas as pessoas australianas que nasceram no século 20
+
+
 const assert = require('assert')
 
 const people = [
@@ -27,16 +30,15 @@ const people = [
         nationality: "Brazilian"
     }
 ]
-const {name, bornIn, nationality} = people;
 // escreva filterPeople abaixo
-const verifyAgeDrive = (arrayOfPeople) => (
-    arrayOfPeople.filter((people) => (
-        people.nationality == "Australian" && people.bornIn >= 1901 && people.bornIn <= 2000
+const filterPeople = (arrayOfPeople) => (
+    arrayOfPeople.filter(({bornIn, nationality}) => (
+        nationality == "Australian" && bornIn >= 1901 && bornIn <= 2000
         )
     )
   );
 
-const filteredPeople = verifyAgeDrive(people);
+const filteredPeople = filterPeople(people);
 
 assert.deepStrictEqual(filteredPeople[0], { name: "Nicole", bornIn: 1992, nationality: "Australian" })
 assert.deepStrictEqual(filteredPeople[1], { name: "Toby", bornIn: 1901, nationality: "Australian" })
