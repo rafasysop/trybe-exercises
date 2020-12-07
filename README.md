@@ -91,6 +91,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Resultado do Projeto do Bloco 08
 ![](/resultado/008zoo.png)
+
  
 ### Bloco 9: Assincronicidade & Callbacks :hourglass_flowing_sand:
 
