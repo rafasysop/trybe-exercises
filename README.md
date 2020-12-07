@@ -86,17 +86,20 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 7-3: _Testes unitários em JavaScript_ :heavy_check_mark:
 - [x] 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/tryber/sd-08-project-js-unit-tests/tree/rafasysop-js-unit-tests)_ :heavy_check_mark:
 
-##### Resultado do Projeto do Bloco 06
+##### Resultado do Projeto do Bloco 07
 ![](/resultado/07TestesUnitarios.png)
 
 ### Bloco 8: JavaScript ES6 :hourglass_flowing_sand:
 
 - [x] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_ :heavy_check_mark:
 - [x] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_ :heavy_check_mark:
-- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
-- [ ] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [ ] 8-5: _[Projeto - Zoo functions](https://github.com/rafasysop/trybe-exercises)_
+- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_ :heavy_check_mark:
+- [ ] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_ :heavy_check_mark:
+- [ ] 8-5: _[Projeto - Zoo functions](https://github.com/tryber/sd-08-project-zoo-function/tree/rafasysop-project-zoo-function)_ :heavy_check_mark:
 
+##### Resultado do Projeto do Bloco 08
+![](/resultado/008zoo.png)
+ 
 ### Bloco 9: Assincronicidade & Callbacks :hourglass_flowing_sand:
 
 - [ ] 9-1: _JavaScript Assíncrono e Callbacks_
