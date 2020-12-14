@@ -107,7 +107,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 9-2: _JavaScript Promises_ :heavy_check_mark:
 - [x] 9-3: _[Projeto - Carrinho de Compras](https://github.com/tryber/sd-08-project-shopping-cart/tree/rafasysop-project-shopping-cart)_ :heavy_check_mark:
 
-##### Resultado do Projeto do Bloco 08
+##### Resultado do Projeto do Bloco 09
 ![](/resultado/09-projeto-Cart.png)
 
 ### Bloco 10: Jest :hourglass_flowing_sand:
