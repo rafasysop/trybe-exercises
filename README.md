@@ -93,19 +93,22 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_ :heavy_check_mark:
 - [x] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_ :heavy_check_mark:
-- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_ :heavy_check_mark:
-- [ ] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_ :heavy_check_mark:
-- [ ] 8-5: _[Projeto - Zoo functions](https://github.com/tryber/sd-08-project-zoo-function/tree/rafasysop-project-zoo-function)_ :heavy_check_mark:
+- [x] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_ :heavy_check_mark:
+- [x] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_ :heavy_check_mark:
+- [x] 8-5: _[Projeto - Zoo functions](https://github.com/tryber/sd-08-project-zoo-function/tree/rafasysop-project-zoo-function)_ :heavy_check_mark:
 
 ##### Resultado do Projeto do Bloco 08
 ![](/resultado/08zoo.png)
 
  
-### Bloco 9: Assincronicidade & Callbacks :hourglass_flowing_sand:
+### Bloco 9: Assincronicidade & Callbacks :heavy_check_mark::
 
-- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
-- [ ] 9-2: _JavaScript Promises_
-- [ ] 9-3: _[Projeto - Carrinho de Compras](https://github.com/rafasysop/trybe-exercises)_
+- [x] 9-1: _JavaScript Assíncrono e Callbacks_ :heavy_check_mark:
+- [x] 9-2: _JavaScript Promises_ :heavy_check_mark:
+- [x] 9-3: _[Projeto - Carrinho de Compras](https://github.com/tryber/sd-08-project-shopping-cart/tree/rafasysop-project-shopping-cart)_ :heavy_check_mark:
+
+##### Resultado do Projeto do Bloco 08
+![](/resultado/09-projeto-Cart.png)
 
 ### Bloco 10: Jest :hourglass_flowing_sand:
 
