@@ -15,6 +15,6 @@ class Pokemon extends Component {
 }
 
 Pokemon.propTypes = {
-    lista: PropTypes.arrayOf
+    lista: PropTypes.arrayOf(PropTypes.object).isRequired,
 }
 export default Pokemon;
