@@ -3,13 +3,18 @@ import PropTypes from 'prop-types';
 import Pokedex from './Pokedex';
 
 class Pokemon extends Component {
-    render() { 
-        const uName = 'teste';
-        return ( <Pokedex name={uName} /> );
+    render() {
+        const { lista } = this.props
+        return (
+            <section className="lista-pokemons">
+                {lista.map((pokemon) => (
+                <Pokedex key={pokemon.id} name={pokemon.name} img={pokemon.image} type={pokemon.type} />))}
+            </section>
+        );
     }
 }
- 
+
 Pokemon.propTypes = {
-    uName: PropTypes.string.isRequired
+    lista: PropTypes.arrayOf
 }
 export default Pokemon;
