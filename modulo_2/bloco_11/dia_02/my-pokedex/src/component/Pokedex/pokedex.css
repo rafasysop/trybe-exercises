@@ -9,13 +9,26 @@
   }
 
   .prox {
-      background-color: rgb(107, 153, 15);
-      font-weight: 700;
-      padding: 15px;
-      border: rgb(107, 153, 15) 1px solid;
-  }
+    background-color: rgb(107, 153, 15);
+    font-weight: 700;
+    padding: 15px;
+    border: 0;
+}
 
-  .prox:hover {
-      background-color: rgb(50, 75, 0);
-      color: white;
-  }
+.prox:hover {
+    background-color: rgb(50, 75, 0);
+    color: white;
+}
+
+.tipo {
+    margin: 10px;
+    background-color: rgb(17, 110, 231);
+    font-weight: 700;
+    padding: 10px;
+    border: 0;
+}
+
+.tipo:hover {
+    background-color: rgb(35, 92, 168);
+    color: white;
+}
