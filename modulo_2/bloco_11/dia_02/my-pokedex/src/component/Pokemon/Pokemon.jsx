@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import './pokemon.css'
 
-class Pokedex extends Component {
+class Pokemon extends Component {
     render() { 
         const { name, img, type } = this.props;
         return ( <section className="card">
@@ -11,9 +12,9 @@ class Pokedex extends Component {
             </section> );
     }
 }
-Pokedex.propTypes = {
+Pokemon.propTypes = {
     name: PropTypes.string.isRequired,
     img: PropTypes.string.isRequired,
     type: PropTypes.string.isRequired
 } 
-export default Pokedex;
+export default Pokemon;

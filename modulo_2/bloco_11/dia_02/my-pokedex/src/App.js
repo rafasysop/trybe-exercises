@@ -1,10 +1,12 @@
 import './App.css';
 import pokemons from './data';
-import Pokemon from './component/Pokemon'
+import Pokedex from './component/Pokedex/Pokedex'
+import Header from './component/Header/Index';
 function App() {
   return (
     <div>
-      <Pokemon lista={ pokemons }/>
+      <Header />
+      <Pokedex lista={ pokemons }/>
     </div>
   );
 }

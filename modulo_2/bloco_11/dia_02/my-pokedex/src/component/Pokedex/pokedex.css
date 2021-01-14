@@ -1,0 +1,21 @@
+.lista-pokemons{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    max-width: 800px;
+  }
+
+  .prox {
+      background-color: rgb(107, 153, 15);
+      font-weight: 700;
+      padding: 15px;
+      border: rgb(107, 153, 15) 1px solid;
+  }
+
+  .prox:hover {
+      background-color: rgb(50, 75, 0);
+      color: white;
+  }
