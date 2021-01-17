@@ -45,6 +45,12 @@ class Forms extends Component {
             })
         } 
     }
+
+    handleSelect = (e) => {
+        this.setState({
+            estado: {...this.state.estado, value: e.target.value }
+        })
+    }
     render() {
 
         const { nome, email, cpf, endereco, cidade, estado } = this.state;
@@ -57,9 +63,14 @@ class Forms extends Component {
                     <FormInput nome={cpf.campo} id={cpf.id} onchange={this.handleChange} length="11" place={cpf.place} required="true" nomeClasse="dados-input" />
                     <FormInput nome={endereco.campo} id={endereco.id} onchange={this.handleChange} length="200" place={endereco.place} required="true" nomeClasse="dados-input" />
                     <FormInput nome={cidade.campo} id={cidade.id} onchange={this.handleChange} value={cidade.value} onblur={this.verificaCidade} length="28" place={cidade.place} required="true" nomeClasse="dados-input" />
-                    <select>
-                        <option name="">pb</option>
-                    </select>
+                    <label>
+                        Estado
+                        <select name="estado" value={this.state.estado.value} className="dados-input" onChange={this.handleSelect}>
+                            <option value="paraiba" selected>PB</option>
+                            <option value="goias" selected>GO</option>
+                            <option value="sao-paulo" selected>SP</option>
+                        </select>
+                    </label>
 
 
                     {/* <label> {nome.campo} <input id="nome" maxLength="40" name="nome" type="text" placeholder="Digite seu nome" required className="dados-input nome" /></label>
