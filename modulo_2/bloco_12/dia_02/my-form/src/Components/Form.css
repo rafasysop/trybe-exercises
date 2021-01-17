@@ -21,6 +21,20 @@
   
   .dados-input:focus {
     background-color: rgba(210, 225, 240, 0.623);
-  
-    
+    border: steelblue 1px solid;    
+  }
+
+  label {
+    color: rgb(0, 96, 175);
+    font-weight: 700;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(95, 131, 230);
+    color: white;
+    margin: 5px 0 20px 0;
+    font-weight: 700;
+    font-size: xx-large;
   }
