@@ -1,0 +1,26 @@
+.dados-pessoais {
+    max-width: 500px;
+  }
+  
+  .nome {
+    text-transform: uppercase;
+  }
+  .dados-input {
+    font-size: 18px;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .dados-input:hover {
+    background-color: rgba(223, 222, 222, 0.466);
+    
+  }
+  
+  .dados-input:focus {
+    background-color: rgba(210, 225, 240, 0.623);
+  
+    
+  }
